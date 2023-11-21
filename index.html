@@ -1,13 +1,59 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Svelte</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Arcade</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <main class="container">
+      <hgroup>
+        <h1>Welcome to the arcade!</h1>
+        <h2>
+          This is a website that I have created to showcase various games that I have created.
+          Some are more complete than others. 
+        </h2>
+      </hgroup>
+      <div class="grid">
+        <a href="/doom-clone/index.html">
+          <article>
+            <img src="/doom-clone/assets/thumbnail.png">
+            <h4>Doom Clone</h4>
+            <p>
+              My attempt to create a retro doom-like game engine. More of a tech demo than a game.
+            </p>
+            <small>Mobile-Friendly</small>
+          </article>  
+        </a>
+        <a href="/pong/index.html">
+          <article>          
+            <img src="/pong/img/thumbnail.png">
+            <h4>Pong</h4>
+            <p>
+              A two player pong game where the paddles are karate masters and the ball is a ninja star...very cool.
+            </p>
+            <small>Desktop-Only</small>
+          </article>
+          </a>
+        <article>
+          <img src="/Page_Under_Construction.png">
+          <h4>Tetris Clone</h4>
+          <p>
+            A tetris clone.
+          </p>
+          <small>Non-functional</small>
+        </article>
+        <article>
+          <img src="/Page_Under_Construction.png">
+          <h4>Oregon Trail Clone</h4>
+          <p>
+            An Oregon Trail clone.
+          </p>
+          <small>Non-functional</small>
+        </article>
+      </div>
+    </main>
   </body>
 </html>
